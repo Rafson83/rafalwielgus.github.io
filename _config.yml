@@ -1,0 +1,14 @@
+title: Rafał Wielgus
+description: Osobisty blog Rafała Wielgusa — przedsiębiorczość, psychologia biznesu, technologia.
+url: "https://rafalwielgus.eu"
+baseurl: ""
+markdown: kramdown
+permalink: /blog/:title/
+timezone: Europe/Warsaw
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Rafał Wielgus"

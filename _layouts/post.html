@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container article">
+  <h1>{{ page.title }}</h1>
+  <div class="meta">{{ page.date | date: "%-d %B %Y" }}{% if page.reading_time %} • {{ page.reading_time }} min czytania{% endif %}{% if page.category %} • {{ page.category }}{% endif %}</div>
+  {% if page.image %}
+  <figure>
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+    {% if page.image_caption %}<figcaption class="post__meta">{{ page.image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+  {{ content }}
+</div>
