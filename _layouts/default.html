@@ -32,9 +32,23 @@
 
 <footer class="footer">
   <div class="container">
-    © <span id="y"></span> {{ site.title }} • <a href="{{ '/polityka/' | relative_url }}">Polityka prywatności</a>
+    © <span id="y"></span> {{ site.title }} • <a href="{{ '/polityka-prywatnosci/' | relative_url }}">Polityka prywatności</a> • <a href="{{ '/cookies/' | relative_url }}" id="rw-open-consent">Zmień ustawienia cookies</a>
   </div>
 </footer>
 <script src="{{ '/assets/app.js' | relative_url }}" defer></script>
+<!-- Cookie banner -->
+<div id="rw-cookie-banner" style="position:fixed; inset:auto 0 0 0; background:var(--bg); border-top:1px solid var(--border); padding:16px; z-index:9999; display:none;">
+  <div class="container" style="display:flex; gap:16px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;">
+    <p style="margin:0; max-width:64ch; color:var(--muted)">
+      Używamy niezbędnych cookies do działania strony. Analitykę włączymy <strong>tylko</strong> jeśli wyrazisz zgodę.
+      <a href="/cookies/">Więcej</a> · <a href="/polityka-prywatnosci/">Polityka prywatności</a>
+    </p>
+    <div style="display:flex; gap:8px;">
+      <button id="rw-consent-accept" class="page" style="height:auto; padding:.6rem 1rem;">Akceptuję analitykę</button>
+      <button id="rw-consent-decline" class="page" style="height:auto; padding:.6rem 1rem; background:transparent;">Tylko niezbędne</button>
+    </div>
+  </div>
+</div>
+<!-- /Cookie banner -->
 </body>
 </html>
