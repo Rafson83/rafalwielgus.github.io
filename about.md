@@ -4,7 +4,7 @@ title: O mnie — Rafał Wielgus
 permalink: /about/
 ---
 <div class="container article">
- <H1> O mnie</H>
+ <H1> O mnie</H1>
 
 <p>Cześć, jestem Rafał.</p>
 <p>Nie będę udawał, że mam wszystko poukładane — po prostu od lat próbuję ogarniać życie, biznes i technologię na własnych zasadach.</p>
