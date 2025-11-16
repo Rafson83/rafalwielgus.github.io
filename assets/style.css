@@ -24,19 +24,7 @@ img{ max-width:100%; height:auto; display:block }
 header{ border-bottom:1px solid var(--border); position:sticky; top:0; backdrop-filter:saturate(180%) blur(8px); background:color-mix(in oklab, var(--bg) 80%, transparent); z-index:10 }
 .nav{ display:flex; align-items:center; justify-content:space-between; gap:16px; height:64px }
 .brand{ display:flex; align-items:baseline; gap:.5rem; text-decoration:none }
-.brand__title {
-  /* 1. Ustaw wagę czcionki */
-  font-weight: 800; 
-
-  /* 2. Ustaw rozmiar czcionki */
-  font-size: 1.05rem; 
-
-  /* 3. Ustaw listę czcionek (z awaryjną) */
-  font-family: 'Sassy Frass', cursive; 
-
-  /* 4. Zachowaj odstępy między literami */
-  letter-spacing: .02em; 
-}
+.brand__title { font-weight: 800;  font-size: 1.05rem;   font-family: 'Sassy Frass', cursive; letter-spacing: .02em; }
 .brand__tag{ color:var(--muted); font-size:.9rem }
 .menu{ display:flex; gap:1rem; align-items:center }
 .menu a{ text-decoration:none; color:var(--muted) }
