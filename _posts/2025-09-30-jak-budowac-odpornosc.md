@@ -4,8 +4,8 @@ title: "Jak budować odporność psychiczną prowadząc własny biznes"
 description: "Framework na trudne dni: energia, proces, konsekwencja."
 category: Biznes
 reading_time: 6
-image: /img/hero.jpg
-thumb: /img/thumb.jpg
+image: ./img/hero.jpg
+thumb: ./img/thumb.jpg
 ---
 
 Wstęp jedną–dwoma liniami: po co ten tekst i co z niego wyniesiesz.
