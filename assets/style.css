@@ -29,7 +29,7 @@ header{ border-bottom:1px solid var(--border); position:sticky; top:0; backdrop-
   font-weight: 800; 
 
   /* 2. Ustaw rozmiar czcionki */
-  font-size: 3.05rem; 
+  font-size: 1.05rem; 
 
   /* 3. Ustaw listę czcionek (z awaryjną) */
   font-family: 'Sassy Frass', cursive; 
