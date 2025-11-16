@@ -4,8 +4,8 @@ title: "Mój 30‑minutowy rytuał pracy głębokiej"
 description: "Krótko, konkretnie i bez wymówek. Checklista, która trzyma w ryzach projekt i głowę."
 category: Psychologia
 reading_time: 4
-image: ./img/hero.jpg
-thumb: ./img/thumb.jpg
+image: /img/hero.jpg
+thumb: /img/thumb.jpg
 ---
 
 Wstęp jedną–dwoma liniami: po co ten tekst i co z niego wyniesiesz.
