@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kategorie — Rafał Wielgus
-permalink: /categories/
+permalink: 
 ---
 <section class="hero"><div class="container"><h1>Kategorie</h1><p>Najczęściej poruszane tematy.</p></div></section>
 <div class="container grid" aria-label="Lista kategorii">
