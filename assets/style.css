@@ -18,7 +18,7 @@ img{ max-width:100%; height:auto; display:block }
 header{ border-bottom:1px solid var(--border); position:sticky; top:0; backdrop-filter:saturate(180%) blur(8px); background:color-mix(in oklab, var(--bg) 80%, transparent); z-index:10 }
 .nav{ display:flex; align-items:center; justify-content:space-between; gap:16px; height:64px }
 .brand{ display:flex; align-items:baseline; gap:.5rem; text-decoration:none }
-.brand__title{ font: 800 1.05rem Inter, Amsterdam Four; letter-spacing:.02em }
+.brand__title{ font: 800 1.05rem Amsterdam Four, Amsterdam Four; letter-spacing:.02em }
 .brand__tag{ color:var(--muted); font-size:.9rem }
 .menu{ display:flex; gap:1rem; align-items:center }
 .menu a{ text-decoration:none; color:var(--muted) }
