@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontakt — Rafał Wielgus</title>
+  <meta name="description" content="Rozkminy o biznesie, psychologii, technologii i codziennym ogarnianiu życia. Bez guru, bez marketingowego zadęcia — po prostu po ludzku.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="alternate" type="application/rss+xml" title="Rafał Wielgus" href="/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="/" aria-label="Strona główna">
+      <span class="brand__title">Rafał Wielgus</span>
+      <span class="brand__tag">blog osobisty</span>
+    </a>
+    <button class="menu__toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Główne">
+      <a href="/" >Start</a>
+      <a href="/categories/" >Kategorie</a>
+      <a href="/about/" >O mnie</a>
+      <a href="/contact/" aria-current="page">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container article">
+  <h1>Kontakt</h1>
+  <div class="meta">Napisz do mnie</div>
+    <form action="https://formspree.io/f/xyzljzaw" method="POST">
+      <form class="card" onsubmit="return false">
+        <label for="name">Imię</label>
+        <input id="name" name="name" required="" style="width:100%; padding:.6rem .8rem; border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--text); margin:.4rem 0 1rem;" />
+        <label for="email">E‑mail</label>
+        <input id="email" name="email" type="email" required="" style="width:100%; padding:.6rem .8rem; border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--text); margin:.4rem 0 1rem;" />
+        <label for="msg">Wiadomość</label>
+        <textarea id="msg" name="msg" rows="5" required="" style="width:100%; padding:.6rem .8rem; border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--text); margin:.4rem 0 1rem;"></textarea>
+      <button type="submit" class="page" style="height:auto; padding:.6rem 1rem;">Wyślij</button>
+    </form>
+&lt;/div&gt;
+
+
+ 
+</form></div>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    © <span id="y"></span> Rafał Wielgus • <a href="/polityka-prywatnosci/">Polityka prywatności</a> • <a href="/cookies/" id="rw-open-consent">Zmień ustawienia cookies</a>
+  </div>
+</footer>
+<script src="/assets/app.js" defer></script>
+<!-- Cookie banner -->
+<div id="rw-cookie-banner" style="position:fixed; inset:auto 0 0 0; background:var(--bg); border-top:1px solid var(--border); padding:16px; z-index:9999; display:none;">
+  <div class="container" style="display:flex; gap:16px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;">
+    <p style="margin:0; max-width:64ch; color:var(--muted)">
+      Używamy niezbędnych cookies do działania strony. Analitykę włączymy <strong>tylko</strong> jeśli wyrazisz zgodę.
+      <a href="/cookies/">Więcej</a> · <a href="/polityka-prywatnosci/">Polityka prywatności</a>
+    </p>
+    <div style="display:flex; gap:8px;">
+      <button id="rw-consent-accept" class="page" style="height:auto; padding:.6rem 1rem;">Akceptuję analitykę</button>
+      <button id="rw-consent-decline" class="page" style="height:auto; padding:.6rem 1rem; background:transparent;">Tylko niezbędne</button>
+    </div>
+  </div>
+</div>
+<!-- /Cookie banner -->
+</body>
+</html>
