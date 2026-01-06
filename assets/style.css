@@ -74,6 +74,7 @@ header {
   backdrop-filter: saturate(180%) blur(8px); 
   background: color-mix(in oklab, var(--bg) 80%, transparent); 
   z-index: var(--z-sticky); 
+  padding-top: 1rem; /* Dodanie przestrzeni od góry */
 }
 
 /* Desktop Layout (liniowy) */
