@@ -15,6 +15,4 @@ permalink: /contact/
     <textarea id="msg" name="msg" rows="5" required style="width:100%; padding:.6rem .8rem; border:1px solid var(--border); border-radius:10px; background:transparent; color:var(--text); margin:.4rem 0 1rem;"></textarea>
     <button type="submit" class="page" style="height:auto; padding:.6rem 1rem;">Wyślij</button>
   </form>
-
-
- 
+</div>

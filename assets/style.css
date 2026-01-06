@@ -3,12 +3,12 @@
 /* ========================================================== */
 
 :root {
-  /* Tło i Tekst (Ciemny Tryb - Domyślne) */
-  --bg: #0a0a0a;             
-  --text: #ffffff;           
-  --muted: #a0a0a0;          
-  --accent: #ffffff;         
-  --border: #333333;         
+  /* Tło i Tekst (Jasny Tryb - Domyślne) */
+  --bg: #ffffff;             
+  --text: #111111;           
+  --muted: #6b7280;          
+  --accent: #0f172a;         
+  --border: #e5e7eb;         
   
   /* Warianty kolorów dla Menu Off-Canvas (Zawsze jasne dla kontrastu) */
   --bg-menu: #ffffff;
