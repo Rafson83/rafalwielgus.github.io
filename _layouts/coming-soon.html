@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #ffffff; color: #111111; font: 16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; text-align: center; }
+    .coming-soon { max-width: 600px; padding: 2rem; }
+    .coming-soon img { max-width: 300px; height: auto; margin-bottom: 2rem; }
+    .coming-soon h1 { font-family: "Playfair Display", serif; font-size: 2rem; margin-bottom: 1rem; }
+    .coming-soon p { font-size: 1.2rem; color: #6b7280; }
+  </style>
+</head>
+<body>
+  <div class="coming-soon">
+    {{ content }}
+  </div>
+</body>
+</html>
