@@ -45,3 +45,25 @@ description: Osobisty blog o przedsiębiorczości, psychologii biznesu i technol
     </section>
   </aside>
 </div>
+
+<section id="bio" class="section">
+  <div class="container">
+    <h2>BIO</h2>
+    <p>Rafał Wielgus — przedsiębiorca, bloger, specjalista od biznesu i technologii. Piszę o tym, jak efektywnie zarządzać czasem, budować odporność psychiczną i automatyzować procesy w biznesie.</p>
+  </div>
+</section>
+
+<section id="media" class="section">
+  <div class="container">
+    <h2>MEDIA</h2>
+    <p>Artykuły i publikacje na temat biznesu, psychologii i technologii.</p>
+    <!-- Tu można dodać listę artykułów -->
+  </div>
+</section>
+
+<section id="kontakt" class="section">
+  <div class="container">
+    <h2>KONTAKT</h2>
+    <p>Skontaktuj się ze mną: <a href="mailto:rafal@example.com">rafal@example.com</a></p>
+  </div>
+</section>

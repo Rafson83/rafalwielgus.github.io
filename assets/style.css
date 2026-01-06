@@ -3,12 +3,12 @@
 /* ========================================================== */
 
 :root {
-  /* Tło i Tekst (Jasny Tryb - Domyślne) */
-  --bg: #ffffff;             
-  --text: #111111;           
-  --muted: #6b7280;          
-  --accent: #0f172a;         
-  --border: #e5e7eb;         
+  /* Tło i Tekst (Ciemny Tryb - Domyślne) */
+  --bg: #0a0a0a;             
+  --text: #ffffff;           
+  --muted: #a0a0a0;          
+  --accent: #ffffff;         
+  --border: #333333;         
   
   /* Warianty kolorów dla Menu Off-Canvas (Zawsze jasne dla kontrastu) */
   --bg-menu: #ffffff;
@@ -236,3 +236,17 @@ header {
 .article img{ border-radius: 14px }
 .article p{ margin: 0 0 1rem }
 .article blockquote{ margin:1.2rem 0; padding: .8rem 1rem; border-left: 3px solid var(--text); background: color-mix(in oklab, var(--text) 3%, transparent); border-radius: 10px }
+
+/* ========================================================== */
+/* 5. SEKCJE STRONY GŁÓWNEJ                                   */
+/* ========================================================== */
+
+.section {
+  padding: 4rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
