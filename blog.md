@@ -1,18 +1,12 @@
 ---
 layout: default
-title: Rafał Wielgus — blog
-description: Osobisty blog o przedsiębiorczości, psychologii biznesu i technologii.
+title: Blog — Rafał Wielgus
+permalink: /blog/
 ---
-
-<section class="hero">
-  <div class="container">
-    <h1>Prosto o biznesie, psychologii i technologii</h1>
-    <p>Minimalny design, maksymalna czytelność. Zero ściemy.</p>
-  </div>
-</section>
-
-<div class="container grid" role="region" aria-label="Zawartość">
-  <section class="posts" aria-label="Lista wpisów">
+<div class="container article">
+  <h1>Blog</h1>
+  <div class="meta">Wszystkie wpisy</div>
+  <div class="posts">
     {% for post in site.posts %}
     <article class="post">
       <a class="post__thumb" href="{{ post.url | relative_url }}" aria-label="Czytaj wpis">
@@ -28,20 +22,5 @@ description: Osobisty blog o przedsiębiorczości, psychologii biznesu i technol
       </div>
     </article>
     {% endfor %}
-  </section>
-
-  <aside class="sidebar" aria-label="Pasek boczny">
-    <section class="card">
-      <h3>O blogu</h3>
-      <p class="muted">Piszę, jak ogarniać firmę i siebie — bez lania wody.</p>
-    </section>
-    <section class="card">
-      <h3>Kategorie</h3>
-      <nav class="tags">
-        <a class="tag" href="{{ '/categories/#biznes' | relative_url }}">Biznes</a>
-        <a class="tag" href="{{ '/categories/#psychologia' | relative_url }}">Psychologia</a>
-        <a class="tag" href="{{ '/categories/#technologia' | relative_url }}">Technologia</a>
-      </nav>
-    </section>
-  </aside>
+  </div>
 </div>

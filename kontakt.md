@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kontakt — Rafał Wielgus
-permalink: /contact/
+permalink: /kontakt/
 ---
 <div class="container article">
   <h1>Kontakt</h1>
