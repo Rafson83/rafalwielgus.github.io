@@ -20,19 +20,6 @@
   --z-sticky: 10;
   --z-overlay: 55;
   --z-off-canvas: 60;
-}
-
-/* Tryb Ciemny (Dark Mode - preferuje system) */
-@media (prefers-color-scheme: dark) {
-  :root { 
-    --bg: #0b0b0c;           
-    --text: #f3f4f6;         
-    --muted: #9ca3af;        
-    --accent: #93c5fd;       
-    --border: #1f2937;       
-  }
-}
-
 /* ========================================================== */
 /* 2. GLOBAL RESET & BASE STYLES                              */
 /* ========================================================== */
