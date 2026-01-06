@@ -97,7 +97,7 @@ header {
   letter-spacing: .02em; 
 }
 .brand__logo {
-  height: clamp(2rem, 8vw, 4rem);
+  height: clamp(2.6rem, 10.4vw, 5.2rem);
   width: auto;
   display: block;
 }
